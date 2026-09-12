@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+        C20000000000000000000060 /* TradeLedgerCore in Frameworks */ = {isa = PBXBuildFile; productRef = C20000000000000000000061 /* TradeLedgerCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C20000000000000000000010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20000000000000000000020;
+			remoteInfo = TradeLedger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20000000000000000000002 /* TradeLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeLedger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20000000000000000000003 /* TradeLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeLedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C20000000000000000000004 /* Exceptions for App folder in TradeLedger target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (Info.plist,);
+			target = C20000000000000000000020 /* TradeLedger */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C20000000000000000000005 /* TradeLedger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (C20000000000000000000004 /* Exceptions for App folder in TradeLedger target */,);
+			path = TradeLedger;
+			sourceTree = "<group>";
+		};
+
+		C20000000000000000000007 /* TradeLedgerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeLedgerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20000000000000000000008 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (C20000000000000000000060 /* TradeLedgerCore in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+		C20000000000000000000009 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20000000000000000000011 = {
+			isa = PBXGroup;
+			children = (C20000000000000000000005 /* TradeLedger */, C20000000000000000000007 /* TradeLedgerUITests */, C20000000000000000000012 /* Products */,);
+			sourceTree = "<group>";
+		};
+		C20000000000000000000012 /* Products */ = {
+			isa = PBXGroup;
+			children = (C20000000000000000000002 /* TradeLedger.app */, C20000000000000000000003 /* TradeLedgerUITests.xctest */,);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20000000000000000000020 /* TradeLedger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000000000000000000040 /* Build configuration list for PBXNativeTarget TradeLedger */;
+			buildPhases = (C20000000000000000000030 /* Sources */, C20000000000000000000008 /* Frameworks */, C20000000000000000000031 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			fileSystemSynchronizedGroups = (C20000000000000000000005 /* TradeLedger */, );
+			name = TradeLedger;
+			packageProductDependencies = (C20000000000000000000061 /* TradeLedgerCore */,);
+			productName = TradeLedger;
+			productReference = C20000000000000000000002 /* TradeLedger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C20000000000000000000021 /* TradeLedgerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000000000000000000041 /* Build configuration list for PBXNativeTarget TradeLedgerUITests */;
+			buildPhases = (C20000000000000000000032 /* Sources */, C20000000000000000000009 /* Frameworks */, C20000000000000000000033 /* Resources */,);
+			buildRules = ();
+			dependencies = (C20000000000000000000022 /* PBXTargetDependency */,);
+			fileSystemSynchronizedGroups = (C20000000000000000000007 /* TradeLedgerUITests */,);
+			name = TradeLedgerUITests;
+			packageProductDependencies = ();
+			productName = TradeLedgerUITests;
+			productReference = C20000000000000000000003 /* TradeLedgerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C20000000000000000000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					C20000000000000000000020 = {CreatedOnToolsVersion = 26.3; };
+					C20000000000000000000021 = {CreatedOnToolsVersion = 26.3; TestTargetID = C20000000000000000000020; };
+				};
+			};
+			buildConfigurationList = C20000000000000000000042 /* Build configuration list for PBXProject TradeLedger */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (ja, en, Base,);
+			mainGroup = C20000000000000000000011;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (C20000000000000000000062 /* XCLocalSwiftPackageReference "." */,);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C20000000000000000000012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (C20000000000000000000020 /* TradeLedger */, C20000000000000000000021 /* TradeLedgerUITests */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20000000000000000000031 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C20000000000000000000033 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20000000000000000000030 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C20000000000000000000032 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20000000000000000000022 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = C20000000000000000000020 /* TradeLedger */; targetProxy = C20000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCLocalSwiftPackageReference section */
+        C20000000000000000000062 /* XCLocalSwiftPackageReference "." */ = {
+            isa = XCLocalSwiftPackageReference;
+            relativePath = .;
+        };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+        C20000000000000000000061 /* TradeLedgerCore */ = {
+            isa = XCSwiftPackageProductDependency;
+            package = C20000000000000000000062 /* XCLocalSwiftPackageReference "." */;
+            productName = TradeLedgerCore;
+        };
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C20000000000000000000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)",);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C20000000000000000000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C20000000000000000000052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TradeLedger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.adachi.tradeledger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C20000000000000000000053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TradeLedger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.adachi.tradeledger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C20000000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.adachi.tradeledger.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TradeLedger;
+			};
+			name = Debug;
+		};
+		C20000000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.adachi.tradeledger.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TradeLedger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20000000000000000000040 /* Build configuration list for PBXNativeTarget TradeLedger */ = {isa = XCConfigurationList; buildConfigurations = (C20000000000000000000052 /* Debug */, C20000000000000000000053 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C20000000000000000000041 /* Build configuration list for PBXNativeTarget TradeLedgerUITests */ = {isa = XCConfigurationList; buildConfigurations = (C20000000000000000000054 /* Debug */, C20000000000000000000055 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C20000000000000000000042 /* Build configuration list for PBXProject TradeLedger */ = {isa = XCConfigurationList; buildConfigurations = (C20000000000000000000050 /* Debug */, C20000000000000000000051 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = C20000000000000000000010 /* Project object */;
+}
